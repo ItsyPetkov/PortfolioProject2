@@ -6,7 +6,8 @@ Topics that are covered in this exploration include:
 
 EXTRACTION: Populating a database with data from various sources stored in tables using an automated process defined by multiple stored procedures.
 
-TRANSFORMATION: 
+TRANSFORMATION: Applying various technique for cleaning data and preparing for it further analysis. 
+Techniques include: triming data, feature engineering, removing NULL(s) or populating empty values, removing duplicate rows and columns, standardizing data formats 
 
 LOADING: Exporting the cleaned data from the database by creating a backup of its database for future application.
 
