@@ -8,4 +8,6 @@ EXTRACTION: Populating a database with data from various sources stored in table
 
 TRANSFORMATION: 
 
+LOADING: Exporting the cleaned data from the database by creating a backup of its database.
+
 The datasets used throughout this project are available at https://github.com/danmarques-dt/SQL_data_cleaning_and_analysis_employees/tree/main
