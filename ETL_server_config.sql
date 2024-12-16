@@ -149,6 +149,7 @@ BEGIN
 		--Checking for duplicate rows
 		--Removing duplicate rows
 		--Standardizing date format
+		--Standardize the conntents in the gender table
 		--Alter table by adding new columns for future feature engineering
 		--Look at the data after all those changes
 
@@ -294,6 +295,14 @@ BEGIN
 		SET date = CAST(date AS DATE)
 
 		
+
+		UPDATE emp_dataset
+		SET gender = CASE WHEN gender = ''M'' THEN ''Male''
+		WHEN gender = ''F'' THEN ''Female''
+		ELSE gender
+		END
+
+
 
 		ALTER TABLE emp_dataset 
 		ADD company_location VARCHAR(255), 
